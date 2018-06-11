@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  .a1{
+    background-color: #efefef;
+    height: 90px; 
+    border-color: #efeffe;
+  }
+   
+  .a3{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    padding: 8px 2px;
+  
+     
+  }
+  .a4{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+  }
+  li.a4:hover{
+    background-color: blue;
+    color: blue;
+  }
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse a1 ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+<h1><img class="a3" src="logo.png" width="175" height="70" alt="" title="Baja Bhais" align="left" /></h1>
+
+    </div>
+    <div class="collapse navbar-collapse a4" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+       <li><a href="knox.html">HOME</a></li>
+        <li><a  href="ABOUT.html">ABOUT</a></li>
+        <li><a href="baja.html">BAJA SAE</a></li>
+        <li><a href="cars.html">GARAGE</a></li>
+        <li><a href="cars.html">GALLERY</a></li>
+          
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+</div>
+
+</body>
+</html>
